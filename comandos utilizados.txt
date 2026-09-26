@@ -1,0 +1,24 @@
+Comandos utilizados en la práctica 3: 
+
+sudo useradd 
+sudo passwd 
+sudo usermod -aG wheel usuario
+groups 
+sudo groupadd guest
+sudo userdel -r usuario
+getent group
+
+Comandos utilizados en la práctica 4:
+
+mkdir materia
+cd materia/
+vi estudiante.txt
+chmod 700 estudiante.txt
+ls -l
+chmod 070 estudiante.txt
+cd ..
+ls
+cp materia/estudiante.txt materia2/
+cat
+rn
+rmdir
