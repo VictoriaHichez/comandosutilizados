@@ -1,0 +1,37 @@
+Comandos utilizados en la práctica 1:
+
+sudo dnf clean all
+sudo dnf update -y
+sudo dnf repolist
+sudp dnf search bashtop
+sudo dnf install 
+btop
+sudo dnf remove
+rm -rf /.config/btop
+sudo dnf autoremove
+
+
+Comandos utilizados en la práctica 2
+sudo crontab -e
+0 23 * * * /usr/bin/dnf update -y
+0 3 * * 0 /usr/sbin/reboot
+sudo crontab -l
+systemctl status atd
+cd
+touch
+sudo at now + 1 minute
+rm -f /tmp/*
+sudo atq
+ls
+
+Comandos utilizados en la práctica 3
+lsblk
+sudo fdisk /dev/sdb
+sudo mkfs.ext4 /dev/sdb1
+mkdir 
+sudo mount
+mount | grep sdb1
+cd
+touch
+ls
+sudo umount 
